@@ -1,9 +1,10 @@
+// =======================
 #include "arduino_secrets.h"
 #include "thingProperties.h"
 #include "DHT.h"
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-
+// ===========================
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 #define SDA_PIN 4  
 #define SCL_PIN 5  
